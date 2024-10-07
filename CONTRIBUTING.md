@@ -22,3 +22,27 @@ First, thank you for considering contributing to LLMAIX2001a! We are excited to 
 
    ```bash
    git clone https://github.com/your_username/LLMAIX2001a.git
+
+---
+
+#### **3. configs/train_config.json**
+
+Configuration file for training parameters:
+
+```json
+{
+  "model": {
+    "embed_size": 512,
+    "num_heads": 8,
+    "num_layers": 6,
+    "dropout": 0.1,
+    "max_length": 512
+  },
+  "training": {
+    "batch_size": 8,
+    "learning_rate": 5e-5,
+    "epochs": 3,
+    "max_length": 512,
+    "output_model_path": "models/llmaix2001a.pth"
+  }
+}
