@@ -25,7 +25,7 @@ First, thank you for considering contributing to LLMAIX2001a! We are excited to 
 
 ---
 
-#### **3. configs/train_config.json**
+#### ** configs/train_config.json**
 
 Configuration file for training parameters:
 
